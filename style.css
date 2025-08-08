@@ -265,7 +265,6 @@
         align-items: center;
         height: 350px;
         justify-content: space-around;
-        border: solid 2px black;
     }
 
     .caixa-oportunidades .container .oportunidades .oportunidade {
@@ -299,15 +298,17 @@
     .texto-oportunidade {
         display: flex;
         position: absolute;
-        font-size: 30px;
+        font-size: 25px;
         color: white;
         font-weight: bold;
         top: 25px;
         left: 20px;
+
     }
 
     .opcao-oportunidade {
         position: relative;
+        transition: all 0.7s ease;
         display: flex;
         align-items: center;
         border-radius: 35px;
@@ -316,6 +317,10 @@
         background-color: white;
         margin-top: 10px;
         margin-left: 20px;
+    }
+
+    .opcao-oportunidade:hover {
+        scale: 1.10;
     }
     
     .amarelo .opcao-oportunidade .texto-oportunidade-2 {
@@ -370,7 +375,7 @@
     .rodape .rodape-1 {
         position: relative;
         display: flex;
-        width: 50%;
+        width: 100%;
         height: 100%;
         border: solid 2px black;
         justify-content: center;
@@ -378,23 +383,11 @@
         box-sizing: border-box;
     }
 
-    .rodape-1 li{
-        display: flex;
-    }
-
-    .rodape-1 i {
+    .rodape-1 li i {
         background-color: #0082C4;
         color: #00315E;
         padding: 6px;
         border-radius: 50%;
-    }
-
-    .rodape .rodape-2 {
-        float: right;
-        display: flex;
-        width: 50%;
-        height: 100%;
-        border: solid 2px black;
     }
 
 
