@@ -256,7 +256,8 @@
 /* OPORTUNIDADES */
 
     .caixa-oportunidades {
-        padding: 100px 0px; 
+        padding: 160px 0px; 
+
     }
 
     .caixa-oportunidades .oportunidades {
@@ -270,7 +271,7 @@
     .caixa-oportunidades .container .oportunidades .oportunidade {
         display: flex;
         flex-direction: column;
-        padding-top: 60px;
+        padding-top: 65px;
         position: relative;
         border: 0.5px solid #FFFC77;
         width: 100%;
@@ -306,8 +307,8 @@
     }
 
     .opcao-oportunidade {
+        position: relative;
         display: flex;
-        justify-content: center;
         align-items: center;
         border-radius: 35px;
         height: 50px;
@@ -316,13 +317,85 @@
         margin-top: 10px;
         margin-left: 20px;
     }
-     .amarelo .opcao-oportunidade .texto-oportunidade-2 {
-        font-weight: bold;
+    
+    .amarelo .opcao-oportunidade .texto-oportunidade-2 {
+        position: absolute;
+        left: 40px;
         color: #FAB518;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    .verde .opcao-oportunidade .texto-oportunidade-2 {
+        position: absolute;
+        left: 40px;
+        color:#009339;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    .azul .opcao-oportunidade .texto-oportunidade-2 {
+        position: absolute;
+        left: 40px;
+        color: #0082C4;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    .vermelho .opcao-oportunidade .texto-oportunidade-2 {
+        position: absolute;
+        left: 40px;
+        color: #E40F1C;
+        font-weight: bold;
         font-size: 100%;
     }
 
 
+/* RODAPE */
+
+    .rodape {
+        display: flex;
+        height: 400px;
+        background-image: linear-gradient(180deg, #00315e 0%, #000825 100%);
+        flex-direction: row;
+    }
+
+    .rodape img {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        height: 45px;
+    }
+
+    .rodape .rodape-1 {
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        border: solid 2px black;
+        justify-content: center;
+        align-items: center;  
+        box-sizing: border-box;
+    }
+
+    .rodape-1 li{
+        display: flex;
+    }
+
+    .rodape-1 i {
+        background-color: #0082C4;
+        color: #00315E;
+        padding: 6px;
+        border-radius: 50%;
+    }
+
+    .rodape .rodape-2 {
+        float: right;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        border: solid 2px black;
+    }
 
 
 
